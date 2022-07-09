@@ -1,0 +1,37 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+
+header {
+  padding-top: 100px;
+}
+
+#testimonial {
+  background: #e38a84;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.info {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+}
+
+.footer {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
+.card {
+  width: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-md-6 {
+    display: grid;
+    justify-content: center;
+    text-align: center;
+  }
+}
